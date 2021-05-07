@@ -1,2 +1,6 @@
 *-lock
 *.log
+PackageCache
+PackageManager/ProjectCache
+CurrentLayout-default.dwlt
+Library/ScriptAssemblies
