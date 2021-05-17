@@ -10,6 +10,12 @@ public class BoardManager : MonoBehaviour {
 	//My created objects
 	public GameObject outerWallTile;
 	public GameObject playerGameObj;
+
+	public string wallTileTag;
+	public string floorTileTag;
+
+
+
 	public int corridorWidth = 3;
 
 	private bool playerSpawned;
@@ -219,7 +225,9 @@ public class BoardManager : MonoBehaviour {
 				for (int j = (int)subDungeon.room.y; j < subDungeon.room.yMax; j++) {
 					GameObject instance;
 					if (i == subDungeon.room.xMax-1 || j == subDungeon.room.yMax-1 ||i == subDungeon.room.x || j == subDungeon.room.y) {
-						instance = Instantiate(outerWallTile, new Vector3(i, j, 10f), Quaternion.identity);
+						//wall are created elsewhere
+						//instance = Instantiate(outerWallTile, new Vector3(i, j, 10f), Quaternion.identity);
+						instance = Instantiate(floorTile, new Vector3(i, j, 10f), Quaternion.identity);
 					}
 					else {
 						if(playerSpawned == false){ // spawn player on first tile
@@ -247,21 +255,56 @@ public class BoardManager : MonoBehaviour {
 		DrawCorridors (subDungeon.right);
 
 		foreach (Rect corridor in subDungeon.corridors) {
-			for (int i = (int)corridor.x; i < corridor.xMax; i++) {
-				for (int j = (int)corridor.y; j < corridor.yMax; j++) {
+			for (int i = (int)corridor.x; i <= corridor.xMax; i++) {
+				for (int j = (int)corridor.y; j <= corridor.yMax; j++) {
 					if (boardPositionsFloor[i,j] == null) {
 						GameObject instance = Instantiate (corridorTile, new Vector3 (i, j, 10f), Quaternion.identity);
 						instance.transform.SetParent (transform);
 						boardPositionsFloor [i, j] = instance;
-					}else{
-						GameObject objectOnPosition = boardPositionsFloor[i,j];
-						if(objectOnPosition.name.Contains("OuterWall")){ // Eingang gefunden, ersetze durch floor
-							Destroy(objectOnPosition);
-							GameObject instance = Instantiate (corridorTile, new Vector3 (i, j, 10f), Quaternion.identity);
+					}
+//					else{
+//						GameObject objectOnPosition = boardPositionsFloor[i,j];
+//						if(objectOnPosition.name.Contains("OuterWall")){ // Eingang gefunden, ersetze durch floor
+//							Destroy(objectOnPosition);
+//							GameObject instance = Instantiate (corridorTile, new Vector3 (i, j, 10f), Quaternion.identity);
+//							instance.transform.SetParent (transform);
+//							boardPositionsFloor [i, j] = instance;
+//						}
+//					}
+				}
+			}
+		}
+	}
+
+	void DrawWalls(){
+		for(int i=0;i<boardRows;i++){
+			for(int j=0;j<boardColumns;j++){
+				//draw on empty tiles around floor tiles
+				if (boardPositionsFloor[i,j] == null) {
+					drawWallIfAdjacentToFloor(i, j);
+				}
+			}
+		}
+	}
+
+
+
+	private void drawWallIfAdjacentToFloor(int i, int j){
+		for (int i_offset=-1;i_offset<=1;i_offset++){
+			for(int j_offset=-1;j_offset<=1;j_offset++){
+				if(i_offset!=0 && j_offset!=0 ){
+					var mod_i = i + i_offset;
+					var mod_j = j + j_offset;
+					if( !(mod_i<0 || mod_i>=boardRows || mod_j<0 || mod_j>=boardColumns)){
+						GameObject floorTileAroundPosition = boardPositionsFloor[mod_i, mod_j];
+						if (floorTileAroundPosition != null && floorTileAroundPosition.tag == floorTileTag){
+							GameObject instance = Instantiate (outerWallTile, new Vector3 (i, j, 10f), Quaternion.identity);
 							instance.transform.SetParent (transform);
-							boardPositionsFloor [i, j] = instance;
+							boardPositionsFloor[i,j] = instance;
+							return;
 						}
 					}
+
 				}
 			}
 		}
@@ -276,6 +319,7 @@ public class BoardManager : MonoBehaviour {
 		Debug.Log(boardPositionsFloor);
 		DrawRooms (rootSubDungeon);
 		DrawCorridors (rootSubDungeon);
+		DrawWalls();
 		Debug.Log(boardPositionsFloor);
 	}
 }
