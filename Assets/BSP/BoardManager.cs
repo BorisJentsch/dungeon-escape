@@ -14,8 +14,6 @@ public class BoardManager : MonoBehaviour {
 	public string wallTileTag;
 	public string floorTileTag;
 
-
-
 	public int corridorWidth = 3;
 
 	private bool playerSpawned;

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <component name="ModuleManager">
+    <modules>
+      <module name="dungeon-escape" dirurl="file://$PROJECT_DIR$" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d" sdk-module-name="" sdk-name="Unity3D 2021.1.4f1" script-runtime-version="1">
+            <define>UNITY_EDITOR</define>
+            <define>DEBUG</define>
+            <define>TRACE</define>
+          </extension>
+          <content url="file://$MODULE_DIR$">
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/.consulo" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Library" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/Temp" />
+            <content-folder type="EXCLUDED" url="file://$MODULE_DIR$/test_Data" />
+          </content>
+          <orderEntry type="sourceFolder" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-firstpass" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_8_0" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="unity-package" name="com.unity.collab-proxy" version="1.3.9" />
+          <orderEntry type="unity-package" name="com.unity.ide.rider" version="3.0.5" />
+          <orderEntry type="unity-package" name="com.unity.ide.visualstudio" version="2.0.7" />
+          <orderEntry type="unity-package" name="com.unity.ide.vscode" version="1.2.3" />
+          <orderEntry type="unity-package" name="com.unity.test-framework" version="1.1.24" />
+          <orderEntry type="unity-package" name="com.unity.textmeshpro" version="3.0.4" />
+          <orderEntry type="unity-package" name="com.unity.timeline" version="1.5.4" />
+          <orderEntry type="unity-package" name="com.unity.ugui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.visualscripting" version="1.5.2" />
+          <orderEntry type="unity-package" name="com.unity.modules.ai" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.androidjni" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.animation" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.assetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.audio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.cloth" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.director" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imageconversion" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imgui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.jsonserialize" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.particlesystem" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics2d" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.screencapture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrain" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrainphysics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.tilemap" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.ui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.uielements" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.umbra" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unityanalytics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequest" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestassetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestaudio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequesttexture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestwww" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vehicles" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.video" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vr" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.wind" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.xr" version="1.0.0" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="dot-net-library" name="System.Net.Http" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp-Editor" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_8_0" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="module" module-name="Assembly-CSharp" />
+          <orderEntry type="dot-net-library" name="UnityEditor.Graphs" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="unity-package" name="com.unity.collab-proxy" version="1.3.9" />
+          <orderEntry type="unity-package" name="com.unity.ide.rider" version="3.0.5" />
+          <orderEntry type="unity-package" name="com.unity.ide.visualstudio" version="2.0.7" />
+          <orderEntry type="unity-package" name="com.unity.ide.vscode" version="1.2.3" />
+          <orderEntry type="unity-package" name="com.unity.test-framework" version="1.1.24" />
+          <orderEntry type="unity-package" name="com.unity.textmeshpro" version="3.0.4" />
+          <orderEntry type="unity-package" name="com.unity.timeline" version="1.5.4" />
+          <orderEntry type="unity-package" name="com.unity.ugui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.visualscripting" version="1.5.2" />
+          <orderEntry type="unity-package" name="com.unity.modules.ai" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.androidjni" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.animation" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.assetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.audio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.cloth" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.director" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imageconversion" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imgui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.jsonserialize" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.particlesystem" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics2d" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.screencapture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrain" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrainphysics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.tilemap" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.ui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.uielements" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.umbra" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unityanalytics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequest" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestassetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestaudio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequesttexture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestwww" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vehicles" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.video" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vr" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.wind" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.xr" version="1.0.0" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="dot-net-library" name="System.Net.Http" />
+        </module-layer>
+      </module>
+      <module name="Assembly-CSharp" current-layer="Default">
+        <module-layer name="Default">
+          <extension id="unity3d-child" />
+          <extension id="unity3d-csharp-child" unsafe-code="false" language-version-name="_8_0" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/BSP/BoardManager.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/BSP/BoardManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/CameraControl.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/CameraControl.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Enemy.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Enemy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/GameManager.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/GameManager.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/MovingObject.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/MovingObject.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Player.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Player.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Wall.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/Wall.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/DungeonGeneration.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/DungeonGeneration.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/EnterDoor.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/EnterDoor.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/KillEnemy.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/KillEnemy.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/MyPlayerScript.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/MyPlayerScript.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/ReachGoal.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/ReachGoal.cs.meta" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/Room.cs" />
+          <content url="file://$USER_HOME$/Documents/unity/dungeon-escape/Assets/Scripts/other/Room.cs.meta" />
+          <orderEntry type="sourceFolder" />
+          <orderEntry type="module" module-name="Assembly-CSharp-firstpass" />
+          <orderEntry type="dot-net-library" name="mscorlib" />
+          <orderEntry type="dot-net-library" name="UnityEditor" />
+          <orderEntry type="dot-net-library" name="UnityEngine" />
+          <orderEntry type="unity-package" name="com.unity.collab-proxy" version="1.3.9" />
+          <orderEntry type="unity-package" name="com.unity.ide.rider" version="3.0.5" />
+          <orderEntry type="unity-package" name="com.unity.ide.visualstudio" version="2.0.7" />
+          <orderEntry type="unity-package" name="com.unity.ide.vscode" version="1.2.3" />
+          <orderEntry type="unity-package" name="com.unity.test-framework" version="1.1.24" />
+          <orderEntry type="unity-package" name="com.unity.textmeshpro" version="3.0.4" />
+          <orderEntry type="unity-package" name="com.unity.timeline" version="1.5.4" />
+          <orderEntry type="unity-package" name="com.unity.ugui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.visualscripting" version="1.5.2" />
+          <orderEntry type="unity-package" name="com.unity.modules.ai" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.androidjni" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.animation" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.assetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.audio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.cloth" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.director" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imageconversion" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.imgui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.jsonserialize" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.particlesystem" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.physics2d" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.screencapture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrain" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.terrainphysics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.tilemap" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.ui" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.uielements" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.umbra" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unityanalytics" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequest" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestassetbundle" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestaudio" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequesttexture" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.unitywebrequestwww" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vehicles" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.video" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.vr" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.wind" version="1.0.0" />
+          <orderEntry type="unity-package" name="com.unity.modules.xr" version="1.0.0" />
+          <orderEntry type="dot-net-library" name="System" />
+          <orderEntry type="dot-net-library" name="System.Core" />
+          <orderEntry type="dot-net-library" name="System.Runtime.Serialization" />
+          <orderEntry type="dot-net-library" name="System.Xml" />
+          <orderEntry type="dot-net-library" name="System.Xml.Linq" />
+          <orderEntry type="dot-net-library" name="System.Net.Http" />
+        </module-layer>
+      </module>
+    </modules>
+  </component>
+</project>
